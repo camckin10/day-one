@@ -1,0 +1,168 @@
+
+/*first ari fan site stylings*/
+/*background color is antique white*/
+
+
+/*header section*/
+
+/*re-doing the header*/
+.header-section{
+  border:4px solid blue;
+  /*lavender pink*/
+  background-color:#FBAED2; 
+}
+
+
+.header-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius:50%;
+}
+
+/*header title text*/
+.center-text{
+    text-align:center;
+    /*ruby*/
+    color:#E0115F;
+    font-family: 'Pacifico', cursive;
+}
+
+/*nav bar links*/
+.nav-center{
+  text-align: center;
+  padding:10px;
+  font-family: 'Pacifico', cursive;
+}
+
+/*puts lines between links in nav bar*/
+.nav-center a:not(:last-child):after {
+  content: "|";
+  }
+
+.pink-links{
+    /*bubble gum*/
+    color:#FE5BAC;
+}
+ 
+
+
+
+
+/*bio section*/
+
+/*possible css for background image in each section*/
+
+
+.bio-section{
+  border:3px solid green;
+  background-image: url();
+} 
+
+
+.bio-image{
+  float: left;
+    margin: 0 20px 20px 0;
+    width:250px;
+    height:250px;
+}
+
+.bio-text{
+  text-align: justify;
+  text-indent: 2em;
+  font-size: 15px;
+}
+
+
+/* .bio-image{
+	width:150px;
+	height:150px;
+  float:right;
+	margin-right:10px;
+
+} */
+
+/*upcoming work section*/
+
+.upcoming-section{
+  border:3px solid orange;
+}
+
+.upcoming-image{
+  height:250px;
+  width:250px;
+}
+
+
+/*upcoming work table stylings*/
+
+
+/* table{
+  width:600px;
+}
+
+th,td{
+  padding:7px 10px 10px 10px;
+}
+
+th{
+  text-transform:uppercase;
+  letter-spacing:0.1em;
+  font-size:90%;
+  border-bottom:2px solid;
+  border-top:1px solid #999;
+  text-align:left;
+}
+
+tr.even{
+  background-color:#efefef;
+}
+
+tr.hover{
+  background-color:#e3e6e5;
+}
+
+.price{
+  text-align:left;
+}
+ */
+
+
+/*contact section*/
+.contact-section{
+  border:3px solid red;
+  padding:10px;
+}
+
+
+/*contact section stylings*/
+input{
+  font-size:10%;
+  color:#5a5854;
+  background-color:#f2f2f2;
+  border:1px solid #bdbdbd;
+  border-radius:5px;
+  padding:5px 5px 5px 30px;
+  background-position: 8px 9px;
+  display:block;
+  margin-bottom:10px;
+}
+
+input:focus, input:hover{
+  background-color:#ffffff;
+  border:1px solid #b1e1e4;
+}
+
+/* input#email{
+  background-image:url();
+} */
+
+/* input#twitter{
+  background-image:url();
+}
+
+input#web{
+  background-image:url();
+}
+ */
